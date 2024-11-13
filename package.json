@@ -4,9 +4,16 @@
   "main": "index.js",
   "author": "<aminskeh786@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "prod": "NODE_ENV=production node ./dist/server.js",
+    "build": "tsc",
+    "postinstall": "prisma generate"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "@types/http-status-codes": "^1.2.0",
     "@types/node": "^22.9.0",
     "prisma": "^5.22.0",
     "tsx": "^4.19.2",
@@ -15,6 +22,9 @@
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "cors": "^2.8.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0",
+    "ts-node-dev": "^2.0.0",
+    "uuid": "^11.0.3"
   }
 }
