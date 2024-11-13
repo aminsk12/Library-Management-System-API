@@ -3,7 +3,7 @@
 The Library Management System API is a backend solution that provides a range of functionality for managing books, members, and borrow records for a library. With this API, users can add new books, manage library members, handle book borrow and return operations, and check for overdue records. The API is designed with scalability and ease of use in mind.
 
 ## Live URL
-Access the live API here: [Library Management System API](https://library-management-system-api-six.vercel.app/)
+Access the live API here: [Library Management System API](https://library-management-system-api-one.vercel.app/)
 
 ## Technology Stack & Packages
 
@@ -33,5 +33,5 @@ This project is built using the following technologies and dependencies:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Nirob-Barman/Library-Management-System-API.git
+   git clone https://github.com/aminsk12/Library-Management-System-API
    cd Library-Management-System-API
